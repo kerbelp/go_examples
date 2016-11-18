@@ -25,8 +25,8 @@ func BinarySearch(num int, slice []int, pos int) int {
 }
 
 func main() {
-	slice := []int{2, 3, 5, 7, 11, 13}
-	num := int(4)
+	slice := []int{2, 3, 5, 7, 11, 14, 20, 22, 24, 26}
+	num := int(26)
 	
 	pos := BinarySearch(num, slice, 0)
 	if pos == -1 {
